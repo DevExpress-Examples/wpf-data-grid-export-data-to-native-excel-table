@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="WpfApplication80.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Export" VerticalAlignment="Top" Click="Button_Click"/>
+        <dxg:GridControl AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Name="grid" Margin="0,20,0,0">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Name"/>
+                <dxg:GridColumn FieldName="MinValue"/>
+                <dxg:GridColumn FieldName="MaxValue"/>
+                <dxg:GridColumn FieldName="Average" UnboundType="Integer" UnboundExpression="([MinValue]+[MaxValue])/2"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" AutoWidth="True" Name="view"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+    </Grid>
+</Window>
