@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/WpfApplication80/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication80/MainWindow.xaml))
-* **[MainWindow.xaml.cs](./CS/WpfApplication80/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication80/MainWindow.xaml))**
+* **[MainWindow.xaml.cs](./CS/WpfApplication80/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication80/MainWindow.xaml.vb))**
 <!-- default file list end -->
 # How to export the GridControl into a native Excel table
 
