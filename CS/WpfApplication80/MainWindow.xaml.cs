@@ -12,7 +12,7 @@ namespace WpfApplication80 {
 
             ObservableCollection<Item> items = new ObservableCollection<Item>();
             for (int i = 1; i < 30; i++) {
-                items.Add(new Item() { Name = "Name" + i, MinValue = i + 5, MaxValue = i + 10 });
+                items.Add(new Item() { Name = "Name" + i, MinValue = i + 4, MaxValue = i + 10 });
             }
             grid.ItemsSource = items;
         }
