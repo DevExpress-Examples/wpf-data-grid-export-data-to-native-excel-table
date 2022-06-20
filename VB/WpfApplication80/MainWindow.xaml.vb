@@ -14,7 +14,7 @@ Namespace WpfApplication80
             Me.InitializeComponent()
             Dim items As ObservableCollection(Of Item) = New ObservableCollection(Of Item)()
             For i As Integer = 1 To 30 - 1
-                items.Add(New Item() With {.Name = "Name" & i, .MinValue = i + 5, .MaxValue = i + 10})
+                items.Add(New Item() With {.Name = "Name" & i, .MinValue = i + 4, .MaxValue = i + 10})
             Next
 
             Me.grid.ItemsSource = items
