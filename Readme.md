@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T466541)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# WPF Data Grid - Export to a Native Excel Table
+# WPF Data Grid - Export Data to a Native Excel Table
 
 This example demonstrates how to export data from the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) to a [native Excel table](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c). To enable this export mode, set the [XlsxExportOptionsEx.LayoutMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.XlsxExportOptionsEx.LayoutMode) property to `Table`.
 
