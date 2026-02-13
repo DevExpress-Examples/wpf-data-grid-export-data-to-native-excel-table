@@ -31,7 +31,7 @@ When you export grid data to a native Excel table, you can handle the [XlsxExpo
 * [WPF Data Grid - Export the GridControl with the Specified Page Header and Footer](https://github.com/DevExpress-Examples/how-to-create-the-print-page-header-and-footer-when-exporting-the-gridcontrol-e2608)
 * [WPF Data Grid - Customize the Print and Export Appearance](https://github.com/DevExpress-Examples/wpf-data-grid-customize-print-export-appearance)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-export-data-to-native-excel-table&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-export-data-to-native-excel-table&~~~was_helpful=no)
 
